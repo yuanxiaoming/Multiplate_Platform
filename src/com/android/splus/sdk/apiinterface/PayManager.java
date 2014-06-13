@@ -24,7 +24,17 @@ public class PayManager {
 
     private boolean mLogDbug=false;
 
-    public static final String SDK_VERSION = "1.0";
+    public static final String LOCAL_SDK_VERSION = "1.0";
+
+    public static final String SDKVERSION = "sdkVersion";
+
+    public static final String GAMEVERSION = "gameVersion";
+
+    public static final String UPDATEURL = "updateurl";
+
+    public static final String UPDATECONTENT = "updatecontent";
+
+    public static final String UPDATETYPE = "updatetype";
 
     /**
      * @Title: PayManager
