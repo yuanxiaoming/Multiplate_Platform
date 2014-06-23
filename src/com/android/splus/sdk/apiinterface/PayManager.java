@@ -330,6 +330,8 @@ public class PayManager {
                 break;
 
         }
+
+        //实例化对象
         if (mIPayManager != null) {
             mIPayManager.setDBUG(mLogDbug);
             mIPayManager.setInitBean(mInitBean);
